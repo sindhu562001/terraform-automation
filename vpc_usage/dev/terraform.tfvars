@@ -1,7 +1,7 @@
 project = "red-delight-463218-c6"
 project_region = "us-central1"
 
-network_name = "my-vpc"
+network_name = "test-vpc-pipeline"
 subnets = {
   "subnet-vpc-a" = {
     region = "us-central1"
