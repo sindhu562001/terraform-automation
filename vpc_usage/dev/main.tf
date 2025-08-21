@@ -8,7 +8,7 @@ module "vpc" {
   source       = "../../modules/vpc"
   network_name = "${var.network_name}-${terraform.workspace}"
   subnets = {
-    subnet-vpc-a = {
+    subnet-vpc-dev-a = {
       region        = "us-central1"
       ip_cidr_range = "10.1.0.0/24"
       secondary_ranges = [
@@ -22,7 +22,7 @@ module "vpc" {
       }
     ]
     },
-    subnet-vpc-b = {
+    subnet-vpc-dev-b = {
       region        = "us-central1"
       ip_cidr_range = "10.2.2.0/24"
     }
