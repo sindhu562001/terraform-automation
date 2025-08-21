@@ -3,7 +3,7 @@ project_region = "us-central1"
 
 network_name = "test-vpc-pipeline"
 subnets = {
-  "subnet-vpc-test-a" = {
+  subnet-vpc-test-a = {
     region = "us-central1"
     ip_cidr_range = "10.0.0.0/24"
     },
