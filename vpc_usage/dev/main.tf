@@ -28,12 +28,12 @@ module "vpc" {
     }
   }
 }
-
+/*
 output "subnet-self-link" {
   value = module.vpc.subnet_self_link["subnet-vpc-a"]
 }
 
-/*
+
 module "gke_lab" {
   source = "../modules/gke"
   cluster_name = "my-gke-cluster"
